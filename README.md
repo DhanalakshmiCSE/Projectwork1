@@ -1,18 +1,16 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## A CNN APPORACH FOR MELANOMA DETECTION
+The Melanoma Detection project is an AI-based system that uses Convolutional Neural Networks (CNN) to analyze skin lesion images and identify whether they are melanoma or benign. The system allows users to upload dermoscopic images, which are preprocessed and analyzed by a trained deep learning model to detect cancerous patterns. This project aims to support early diagnosis, improve accuracy, and assist medical professionals by providing fast and reliable skin cancer detection.
 
 ## About
 <!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+Melanoma, one of the deadliest skin cancers, is on the rise globally, regardless of the medical advancements seen. Early detection is necessary for improving patient survival; however, manual diagnosis still remains difficult because of the high visual similarities between benign and malignant skin lesions. To address these issues, this study proposes an automated melanoma prediction system based on Convolutional Neural Networks (CNNs) boosted with Transfer Learning. With transfer learning, the model takes the advantage of strong pre-trained architectures, such as EfficientNet, ResNet, and DenseNet, enabling it to learn discriminative features related to the color, texture, borders, and structural patterns of lesions with very little medical data. This increases classification accuracies while decreasing training times than if the CNNs were trained from scratch. Image preprocessing techniques, such as resizing, normalization, and, probably most importantly, augmentation, were all used within the system in order to further enhance robustness and generalization across different patient populations. The trained model has been integrated into a user-friendly web interface through which dermoscopic images can be uploaded for quick and easily interpretable assessments of the risk of melanoma. This AI platform would provide dermatologists with an independent source of second opinions, thereby sharing the diagnostic burden and creating more consistent clinical evaluations. It also gives the general population the tools to monitor their skin health regularly, thus acting to encourage early consultation of any lesions which are suspicious. The deep learning and transfer learning coupled with the open digital deployment encapsulates the contemporary AI activities that can better the accessibility of the screening and initiate awareness for improving early detection rates for melanoma.
 
 ## Features
 <!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- CNN with Transfer Learning
+- Automatic Feature Extraction
+- Image Upload and Analysis
+- High Accuracy and Efficiency
 
 ## Requirements
 <!--List the requirements of the project as shown below-->
@@ -27,7 +25,6 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
 ## Output
@@ -35,24 +32,23 @@ Tailored Chatbot for Hostel Booking System is a project designed to integrate a 
 <!--Embed the Output picture at respective places as shown below as shown below-->
 #### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/61195511-b51c-4bdb-bedf-722d09127721" />
 
 #### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+<img width="1360" height="768" alt="image" src="https://github.com/user-attachments/assets/92f18793-5682-4134-87ad-3428b7c4553f" />
 
-Detection Accuracy: 96.7%
+Detection Accuracy: 89.7%
 Note: These metrics can be customized based on your actual performance evaluations.
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The Melanoma Detection System developed uses Convolutional Neural Networks (CNNs), embellished with Transfer Learning (TL), to classify skin images into either melanoma (cancerous) or normal categories. Transfer Learning permits the architecture of deep learning to be pre-trained. When a user uploads an image through the interface, the system preprocesses the image and forwards it to the TL-based CNN model. The high-level features pertinent in determining melanoma detection, such as texture, color variation, asymmetry, and irregular borders, are extracted by the pre-trained model. Finally, the custom classification layer predicts whether the lesion is melanoma or non-melanoma, which is then presented to the user.
+The model scored an accuracy rate of 95%, confirming that the CNN with Transfer Learning acquires patterns meaningful for discrimination in dermoscopic images effectively. TL enhances the robustness of the model so that reliable performance is offered with very limited training data.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+1. Ghosh P, et al. Melanoma detection and prediction using deep learning models. Diagnostics. 2024;14(7):1456.
+2. Kadampur MA, et al. Model-driven framework for melanoma diagnosis using deep learning. IEEE J Biomed Health Inform. 2022;26(5):2717–2725.
 
 
 
